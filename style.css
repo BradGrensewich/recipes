@@ -1,4 +1,33 @@
+h1 {
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+h4 {
+    color: darkorange;
+}
+.subtitle {
+    text-align: center;
+    color: lawngreen;
+}
+.menu {
+    float: left;
+}
 img {
     height: 400px;
     width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#artie {
+    height:auto;
+    width: auto;
+    align-content: center;
+}
+body {
+    background-color: black;
+    color: green;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco;
 }

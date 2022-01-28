@@ -3,12 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Recipes</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;      
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+      }
+    </style>
   </head>
   <body>
     <h1>Brad's Recipes</h1>
-    <h4>The life of a chef</h4>
-    <img src="./images/artie.jpg">
-    <ul>
+    <h4 class="subtitle">The life of a chef</h4>
+    <img id="artie" src="./images/artie.jpg">
+    <ul class="menu">
       <li><a href="./meals/salmonpancake.html">Salmon pancake</a></li>
       <li><a href="./meals/oatmeal.html">High protein oatmeal</a></li>
       <li><a href="./meals/eggs.html">Brad's special eggs</a></li>
