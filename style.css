@@ -1,17 +1,17 @@
-h1 {
-    text-align: center;
+h1 {    
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 h4 {
     color: darkorange;
 }
-.subtitle {
-    text-align: center;
+.subtitle {    
     color: lawngreen;
 }
-.menu {
-    float: left;
+h1,
+.subtitle {
+    text-align: center;
 }
+
 img {
     height: 400px;
     width: 400px;
