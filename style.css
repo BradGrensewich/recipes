@@ -19,6 +19,15 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+.menu {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:fit-content
+}
+.menu li {
+    flex: 1;
+}
 
 
 #artie {
